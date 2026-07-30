@@ -1,0 +1,3 @@
+import type { Config } from "tailwindcss";
+const config: Config = { content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"], theme: { extend: { colors: { space: "#050816", cosmic: "#6C63FF", galaxy: "#3B82F6", cyan: "#06B6D4" }, fontFamily: { sans: ["var(--font-inter)", "sans-serif"] }, animation: { float: "float 7s ease-in-out infinite", drift: "drift 12s ease-in-out infinite" }, keyframes: { float: { "0%,100%": { transform: "translateY(0)" }, "50%": { transform: "translateY(-16px)" } }, drift: { "0%,100%": { transform: "translate3d(0,0,0)" }, "50%": { transform: "translate3d(30px,-20px,0)" } } } } }, plugins: [] };
+export default config;
