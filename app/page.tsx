@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Bell, BookOpen, BrainCircuit, ChevronRight, Compass, FileText, Galaxy, GraduationCap, Menu, Orbit, Play, Search, Sparkles, Telescope, Users, X } from "lucide-react";
+import { ArrowRight, Bell, BookOpen, BrainCircuit, ChevronRight, Compass, FileText, GraduationCap, Menu, Orbit, Play, Search, Sparkles, Telescope, Users, X } from "lucide-react";
 
 const nav = ["Research", "Explore", "AstroFlix", "Library", "Community"];
 const stats = [["12.4K", "Research papers mapped"], ["1.8K", "Researchers connected"], ["98.6%", "AI matching accuracy"], ["160+", "Celestial events tracked"]];
